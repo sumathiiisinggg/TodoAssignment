@@ -1,0 +1,31 @@
+/* styles.css */
+
+.navbar {
+    background-color: #333; /* Background color */
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    float: left; /* Float list items to the left */
+    display: block;
+  }
+  
+  .navbar li a {
+    display: block; /* Display links as block elements */
+    color: white; /* Link text color */
+    text-align: center; /* Center-align text */
+    padding: 14px 16px; /* Add padding to top and bottom */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .navbar li a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: black; /* Text color on hover */
+  }
+  
